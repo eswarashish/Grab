@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="../public/style 2.css">
+  
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Slide Navbar</title>
+	<link rel="stylesheet" type="text/css" href="slide navbar style.css">
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="main">  	
+		<input type="checkbox" id="chk" aria-hidden="true">
+
+			<div class="signup">
+				<form action="/register" method="post">
+					<label for="chk" aria-hidden="true" class="sig">Sign up</label>
+					
+					<input type="email" name="email" placeholder="Email" required="">
+					<input type="password" name="pswd" placeholder="Password" required="">
+					<input type="password" name="renter" placeholder="Re-enter Password" required="">
+					<button type="submit" class="1">Sign up</button>
+				</form>
+			</div>
+
+			<div class="login">
+				<form action="/login" method="post">
+					<label for="chk" aria-hidden="true">Login</label>
+					<input type="email" name="email1" placeholder="Email" required="">
+					<input type="password" name="pswd1" placeholder="Password" required="">
+					<button type="submit" class="1">Login</button>
+				</form>
+				<div ><button class="login-with-google-btn" type="submit"><a 
+					style="text-decoration: none"	href="/auth/google">Continue with Google</a></button></div>
+			</div>
+			
+	</div>
+</body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
