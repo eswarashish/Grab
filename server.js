@@ -10,7 +10,7 @@ const passportlocalmongoose = require("passport-local-mongoose");
 const localstrategy = require("passport-local").Strategy;
 const GoogleStrategy = require('passport-google-oauth2').Strategy;
 const findOrCreate = require("mongoose-find-or-create");
-mongoose.connect("", {useNewUrlParser: true},{useUnifiedTopology: true})
+mongoose.connect("mongodb+srv://20bec023:<password>@cluster0.czvv3ra.mongodb.net/", {useNewUrlParser: true},{useUnifiedTopology: true})
 
 let vari = false;
 var Email ="";
